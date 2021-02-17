@@ -1,19 +1,93 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
     <title>Karma</title>
-    <link href='https://fonts.googleapis.com/css?family=Roboto:400,500,300' rel='stylesheet' type='text/css'>
-    <link rel="stylesheet" href="css/normalize.css">
-    <link rel="stylesheet" href="css/style.css">
-    <link rel="shortcut icon" type="image/x-icon"  href="favicon.ico">
-</head>
-<body>
+    <link
+      href="https://fonts.googleapis.com/css?family=Roboto:400,500,300"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <link rel="stylesheet" href="css/normalize.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="shortcut icon" type="image/x-icon" href="favicon.ico" />
+  </head>
 
+  <body>
     <!-- Add your HTML markup here -->
     <!-- Remember: Use semantic HTML tags like <header>, <main>, <nav>, <footer>, <section> etc -->
     <!-- All the images you need are in the 'img' folder -->
+    <!--  Create a Header  -->
+    <div class="container">
+      <header>
+        <div class="header-bar">
+          <img
+            class="logo"
+            src="./img/karma-logo.svg"
+            alt="karma logo"
+            width="20px"
+          />
+          <nav class="navigate-content">
+            <ul>
+              <li><a id="active" href="">Meet Karma</a></li>
+              <li><a href="">How it Works</a></li>
+              <li><a href="">Store</a></li>
+              <li><a href="">Blog</a></li>
+              <li><a href="">help</a></li>
+              <li><a href="">Login</a></li>
+            </ul>
+          </nav>
+        </div>
+      </header>
 
-</body>
+      <!-- This is a main section -->
+      <section id="main">
+        <!-- Insert an image here -->
+        <img src="./img/first-background.jpg" alt="introducing karma image" />
+        <div class="text-block">
+          <h1>Introducing Karma</h1>
+          <h2>Bring WiFi with you, everywhere you go.</h2>
+          <button id="btn">Learn More</button>
+        </div>
+      </section>
+
+      <article class="middle-section">
+        <h1>Everyone needs a little Karma.</h1>
+        <div class="allIcons">
+          <div class="icon">
+            <img src="./img/icon-devices.svg" alt="pc icon" width="120" />
+            <h2>Internet for all devices</h2>
+          </div>
+
+          <div class="icon">
+            <img src="./img/icon-coffee.svg" alt="coffe icon" width="120" />
+            <h2>Boost your productivity</h2>
+          </div>
+
+          <div class="icon">
+            <img src="./img/icon-refill.svg" alt="refill icon" width="120" />
+            <h2>Pay as You Go</h2>
+          </div>
+        </div>
+      </article>
+
+      <hr />
+
+      <!-- Create a footer here -->
+      <footer>
+        <div class="content-footer">
+          <h2>Join us on</h2>
+          <div class="footer-images">
+            <img src="./img/twitter-icon.svg" alt="twitter icon" width="20" />
+            <img src="./img/facebook-icon.svg" alt="facebook icon" width="20" />
+            <img src="./img/instagram-icon.svg" alt="insta icon" width="20" />
+          </div>
+        </div>
+      </footer>
+    </div>
+  </body>
 </html>
